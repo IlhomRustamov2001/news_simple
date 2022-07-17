@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="jumbotron text-center " >
+    <h1 class="display-4">Yangiliklar sayti</h1>
+    <p class="lead">Eng tezkor yangiliklar bizning saytimizda</p>
+    <p class="lead">
+        <a href="{% url 'article_list' %}" class="btn btn-primary btn-lg " role="button">Barcha yangiliklar</a>
+    </p>
+    <style>
+        .jumbotron{
+            margin-top: 2%;
+        }
+    </style>
+
+</div>
+
+{% endblock %}
